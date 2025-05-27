@@ -1,0 +1,17 @@
+INSERT INTO employee(
+	"empid", "empname", "salary", "dob")
+	VALUES (1, 'Ram', 20000, '21/02/2001');
+	
+    VALUES (2, 'Om', 50000, '02/12/2002');
+
+    VALUES (3, 'Shiv', 80000, '30/06/1999');
+	
+	SELECT * FROM Employee;
+	
+	UPDATE employee
+	SET  "empname"='Madhav', "salary"=950000, "dob"='25/03/1998'
+	WHERE "empid"=3;
+	
+DELETE FROM employee
+	WHERE "empid"=2;
+	
